@@ -10,14 +10,14 @@ readme = {file = "README.md", content-type="text/markdown"}
 classifiers = ["License :: OSI Approved :: MIT License"]
 dynamic = ["version", "description"]
 dependencies = [
-    "Cython",
-    "scipy>=1.6.0",
-    "numpy",
-    "pandas",
-    "annoy",
-    "pynndescent",
-    "umap-learn",
-    "scikit-learn>=1.0.2",  # https://github.com/Teichlab/bbknn/issues/54
+    "Cython>=0.28,<3",
+    "scipy>=1.6.0,<1.19",
+    "numpy>=1.24,<2.5",
+    "pandas>=1.5,<3.1",
+    "annoy>=1.16,<2",
+    "pynndescent>=0.4,<0.6",
+    "umap-learn>=0.4,<0.6",
+    "scikit-learn>=1.0.2,<1.10",  # https://github.com/Teichlab/bbknn/issues/54
 ]
 requires-python = ">=3.7"
 

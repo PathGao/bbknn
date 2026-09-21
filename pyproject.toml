@@ -10,7 +10,6 @@ readme = {file = "README.md", content-type="text/markdown"}
 classifiers = ["License :: OSI Approved :: MIT License"]
 dynamic = ["version", "description"]
 dependencies = [
-    "Cython>=0.28,<3",
     "scipy>=1.6.0,<1.19",
     "numpy>=1.24,<2.5",
     "pandas>=1.5,<3.1",
